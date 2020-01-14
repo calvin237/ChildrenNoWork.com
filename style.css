@@ -1,0 +1,100 @@
+body {
+    
+    width: 1285px;
+    background-color: white;
+    
+    
+
+} 
+.header {
+    display: flex;
+    background-color: rgba(30, 97, 136, 0,5);
+    height: 110px;
+    
+}
+ul {
+    display: flex;
+    justify-content: start;
+    list-style: none;
+    margin-left: 600px;
+    color: crimson;
+    
+}
+li {
+    margin: 50px 10px 20px 0px;
+    color: crimson;
+}
+.image1 {
+    width: 800Px;
+    height: 400px;
+    position: absolute;
+    left: 440px;
+    float: left;
+    margin: 10px 20px 20px 5px;
+    top: 120px;
+}
+.article1{
+    position: absolute;
+    top: 120px;
+    left: 0px;
+    width: 400px;
+    height: 200px;
+    background-color:gainsboro;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+
+}
+.article2 {
+    position: absolute;
+    top: 350px;
+    left: 0px;
+    width: 400px;
+    height: 200px;
+    background-color:gainsboro;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+
+
+}
+.article3 {
+    position: absolute;
+    top: 580px;
+    left: 0px;
+    width: 400px;
+    height: 250px;
+    background-color:gainsboro;
+    margin: 10px 10px 10px 10px;
+    padding:  10px 10px 10px 10px;
+
+}
+p {
+    margin: 10px 10px 10px 10px;
+    padding:  10px 10px 10px 10px;
+
+}
+.image2 {
+    position: absolute;
+    top:270px ;
+    left: 222px ;
+    height: 320px;
+    width: 390px;
+}
+.image3 {
+    position: absolute;
+    top:270px ;
+    left: 435px ;
+    height: 320px;
+    width: 376px;
+
+}
+.footer {
+    
+    position: absolute;
+    top: 875px;
+    left: 10px;
+    height: 150px;
+    width: 1285px;
+    display: flex;
+
+
+}
