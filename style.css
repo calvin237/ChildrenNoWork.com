@@ -1,6 +1,6 @@
 body {
     
-    width: 1285px;
+    width: 1300px;
     background-color: white;
     
     
@@ -11,6 +11,11 @@ body {
     background-color: rgba(30, 97, 136, 0,5);
     height: 110px;
     
+    
+}
+
+.header_nav {
+    text-align: center;
 }
 ul {
     display: flex;
@@ -28,7 +33,7 @@ li {
     width: 800Px;
     height: 400px;
     position: absolute;
-    left: 440px;
+    left: 450px;
     float: left;
     margin: 10px 20px 20px 5px;
     top: 120px;
@@ -36,7 +41,7 @@ li {
 .article1{
     position: absolute;
     top: 120px;
-    left: 0px;
+    left: 10px;
     width: 400px;
     height: 200px;
     background-color:gainsboro;
@@ -47,7 +52,7 @@ li {
 .article2 {
     position: absolute;
     top: 350px;
-    left: 0px;
+    left: 10px;
     width: 400px;
     height: 200px;
     background-color:gainsboro;
@@ -59,7 +64,7 @@ li {
 .article3 {
     position: absolute;
     top: 580px;
-    left: 0px;
+    left: 10px;
     width: 400px;
     height: 250px;
     background-color:gainsboro;
@@ -75,14 +80,14 @@ p {
 .image2 {
     position: absolute;
     top:270px ;
-    left: 222px ;
+    left: 230px ;
     height: 320px;
     width: 390px;
 }
 .image3 {
     position: absolute;
     top:270px ;
-    left: 435px ;
+    left: 443px ;
     height: 320px;
     width: 376px;
 
@@ -90,11 +95,21 @@ p {
 .footer {
     
     position: absolute;
-    top: 875px;
+    top: 1285px;
     left: 10px;
     height: 150px;
-    width: 1285px;
+    width: 1300px;
     display: flex;
 
+
+}
+.contact {
+    position: absolute;
+    top: 875px;
+    left: 20px;
+    height: 300px;
+    width: 420px;
+    background-color:gainsboro;
+    
 
 }
